@@ -1,0 +1,10 @@
+body {
+    background-color:darkslateblue;
+}
+.frontPage{
+    background-color: white; 
+    margin: 100px;
+     margin-left: 500px;
+     margin-right: 500px; 
+    padding: 20px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up Form</title>
+        <!-- External style pattern-->
+        <link rel="stylesheet" href="stylesForSignup.css">
+        <!-- internal style pattern -->
+        <style> 
+            
+            .formstyle {
+                background-color: white; margin: 50px;margin-left: 500px;
+                    margin-right: 500px; margin-bottom: 0%;  padding: 10px; 
+            }
+            .heading{
+                text-align: center;
+                font-weight: 400;   
+            }   
+            .signUpButtonStyle {
+                background-color:aqua; align-content: center;
+                font-size:medium;margin-left: 25%; padding: 5px;                
+            }
+        </style>
+    </head>
+    <body>
+        <form >
+            <div class="formstyle">
+                <h2 class="heading">Sign Up</h2>
+                <!-- Inline style Pattern-->
+                <p style="text-align: center; font-style: normal;">It's free and only takes minutes</p>
+                <div style="margin-left: 20px;"> 
+                    <label for="fname" title="First Name">First Name  </label><br>
+                    <input type="text" title="First Name" id="fname"><br>
+                    <label for="lname" title="Last Name">Last Name  </label><br>
+                    <input type="text" title="Last Name" id="lname"><br>
+                    <label for="email" title="Email">Email</label><br>
+                    <input type="email" title="Email" id="email"><br>
+                    <label for="phoneNum" title="Phone number"> Phone Number</label><br>
+                    <input type="number" title="Phone Number" id="phoneNum"><br>
+                    <label for="password" title="Password" >Password</label><br>
+                    <input type="password" title="Password" id="userPassword"><br>
+                    <label for="confirmPassword">Confirm Password</label><br>
+                    <input type="password" title="Confirm Password" id="confirmPassword"><br><br>
+                    <input type="submit" class="signUpButtonStyle" id="sign_up" value="Sign Up" title="Sign Up"><br>
+                    <p style="font-size: small;">By clicking the Sign Up button, you agree to our 
+                        <a href=" " title="Terms&Conditions" >Terms & Conditions </a> 
+                        and <a href=" " title="PrivacyPolicy"> Privacy Policy </a> </p>
+                </div>
+            </div>
+            <div style="color:aliceblue ; margin-left: 550px; padding-top: 0%;">Already have an account? 
+                <a href="" style="color: aqua;">Login Here</a>
+            </div>
+        </form>
+    </body>
+    <!-- -->
+</html>
